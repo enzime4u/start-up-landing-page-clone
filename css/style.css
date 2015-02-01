@@ -120,7 +120,7 @@ div {
 	overflow: auto;
 	/*border: 1px solid orange;  style added by me
 	margin: 10px;	/* style added by me*/
-	text-align: center; /* style added by me*/
+	/*text-align: center;  style added by me*/
 }
 
 .introduction h1,
@@ -151,5 +151,38 @@ div {
 	font-size: 1.25rem;
 	border-style: none;
 	text-shadow: none;
-	margin-top:1.23rem;
+	display: block;
+	margin:1.23rem auto 0;
 }
+.cases .content {
+	text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem, 0, 3.125rem;
+	font-weight: 300;
+}
+
+.devices li {
+	display: inline-block;
+	float: left;
+	width: 33.3333333%;
+}
+.cases. .devices {
+	margin-top:;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+
+
+
+
+
+
+
+
