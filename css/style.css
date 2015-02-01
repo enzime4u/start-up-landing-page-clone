@@ -50,6 +50,8 @@ table {
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -59,7 +61,10 @@ div {
 
  /* Start of Custom Styles */
 .content {
-	padding: 20px;
+	padding: 0 15px;
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
 
 
@@ -70,11 +75,11 @@ div {
 .top-navigation {
 	background-color: #fff;
 }
-.top.navigation > .content {
-	width: 970px;
+
+.top-navigation > .content {
 	height: 70px;
-	margin: 0 auto;
 }
+
 .top-navigation .logo {
 	height: 70px;
 }
@@ -85,7 +90,6 @@ div {
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
-	margin-bottom: 25px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -107,18 +111,45 @@ div {
 	color: #838994;
 }
 
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 45.938rem;
+	background-position: center bottom;
+	overflow: auto;
+	/*border: 1px solid orange;  style added by me
+	margin: 10px;	/* style added by me*/
+	text-align: center; /* style added by me*/
+}
+
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.big-button {
+	width: 9.688rem;
+	background-color:#f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.25rem;
+	border-style: none;
+	text-shadow: none;
+	margin-top:1.23rem;
+}
