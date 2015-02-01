@@ -49,15 +49,15 @@ table {
 
 
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 	font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-div {
+/*div {
 	border: 1px solid Chocolate;
 }
-
+*/
 
  /* Start of Custom Styles */
 .content {
@@ -74,7 +74,10 @@ div {
 
 .top-navigation {
 	background-color: #fff;
-}
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+ }
 
 .top-navigation > .content {
 	height: 70px;
@@ -160,7 +163,7 @@ div {
 
 .cases h2 {
 	font-size: 2.75rem;
-	margin: 1.625rem, 0, 3.125rem;
+	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;
 }
 
