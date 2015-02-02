@@ -194,10 +194,26 @@ body {
 	height: 2.5rem;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
-	padding: 0.625rem 0 ;
+	
+}
+.social .icons i {
+	margin: 10px 10px;
+}
+.icons .twitter {
+	color: #55acee;
+}
+.icons .instagram {
+	color: #3f729b;
 }
 
-
+.icons .facebook {
+	color: #4c66a4;
+}
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
 
 
 
